@@ -43,7 +43,6 @@ group "01. Ray generation"
       debugargs { "--benchmark-samples", "25" }
       files {"tests/ray_generation_tests.cpp"}
 
-
 group "02. Moller-Trumbore algorithm"
    project "Moller-Trumbore algorithm lib"
       kind "StaticLib"
